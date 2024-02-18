@@ -8,8 +8,8 @@ require("dotenv").config();
 const {expressjwt:jwt}=require("express-jwt");
 const orderRoutes = require("./routes/orderRoutes");
 const cartRoutes = require("./routes/cartRoutes");
-const productRoutes = require("./routes/productroutes");
 const chatRoutes = require("./routes/chatRoutes");
+const productRoutes = require("./routes/productRoutes");
 
 const app = express();
 
